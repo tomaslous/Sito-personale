@@ -1,5 +1,5 @@
 xbody {
-    background: #fff7e6;
+    background: #lightyellow;
     color: #222222;
     font-family: Arial, sans-serif;
 }
@@ -27,7 +27,7 @@ h2 {
 
 nav a {
     display: inline-block;
-    background: #12467a;
+    background: #seagreen;;
     color: white;
     padding: 8px 14px;
     margin-right: 6px;
@@ -36,7 +36,7 @@ nav a {
 }
 
 nav a:hover {
-    background: #f28c28;
+    background: #seagreen;;
 }
 
 /* PEZZO C - TABELLA */
