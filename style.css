@@ -1,76 +1,76 @@
+/* STILE GENERALE DEL SITO */
 body {
     background: #lightyellow;
     color: #222222;
     font-family: Arial, sans-serif;
 }
 
-/* LARGHEZZA E POSIZIONE DELLA PAGINA */
-
+/* DIMENSIONI DELLA PAGINA */
 body {
     max-width: 700px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* PEZZO A - PAGINA E TITOLI */
-
+/* TITOLO PRINCIPALE */
 h1 {
     color: #12467a;
 }
 
+/* TITOLI SECONDARI */
 h2 {
     color: #1f6f5c;
     border-bottom: 2px solid #1f6f5c;
 }
 
-/* PEZZO B - MENU A BOTTONI */
-
+/* MENU A BOTTONI */
 nav a {
     display: inline-block;
-    background: #seagreen;;
-    color: seagreen;
+    background: #12467a;
+    color: white;
     padding: 8px 14px;
     margin-right: 6px;
     border-radius: 8px;
     text-decoration: none;
 }
 
+/* EFFETTO QUANDO PASSI SOPRA IL MENU */
 nav a:hover {
-    background: #seagreen;;
+    background: #f28c28;
 }
 
-/* PEZZO C - TABELLA */
-
+/* TABELLA */
 table {
     border-collapse: collapse;
     width: 100%;
     background: white;
 }
 
+/* CELLE DELLA TABELLA */
 th, td {
     border: 1px solid #999999;
     padding: 8px;
     text-align: left;
 }
 
+/* INTESTAZIONE DELLA TABELLA */
 th {
     background: #12467a;
     color: white;
 }
 
+/* RIGHE ALTERNATE DELLA TABELLA */
 tr:nth-child(even) {
     background: #eef3f8;
 }
 
 /* IMMAGINI */
-
 img {
     max-width: 100%;
     border-radius: 12px;
 }
 
-/* PEZZO D - VISUALIZZAZIONE SU TELEFONO */
-
+/* ADATTAMENTO PER TELEFONI */
 @media (max-width: 600px) {
     body {
         padding: 10px;
