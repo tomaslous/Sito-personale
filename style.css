@@ -1,6 +1,6 @@
 /* STILE GENERALE DEL SITO */
 body {
-    background: #lightyellow;
+    background: lightyellow;
     color: #222222;
     font-family: Arial, sans-serif;
 }
@@ -12,21 +12,20 @@ body {
     padding: 20px;
 }
 
-/* TITOLO PRINCIPALE */
+/* TITOLI */
 h1 {
-    color: #12467a;
+    color: royalblue;
 }
 
-/* TITOLI SECONDARI */
 h2 {
-    color: #1f6f5c;
-    border-bottom: 2px solid #1f6f5c;
+    color: seagreen;
+    border-bottom: 2px solid seagreen;
 }
 
 /* MENU A BOTTONI */
 nav a {
     display: inline-block;
-    background: #12467a;
+    background: seagreen;
     color: white;
     padding: 8px 14px;
     margin-right: 6px;
@@ -34,9 +33,9 @@ nav a {
     text-decoration: none;
 }
 
-/* EFFETTO QUANDO PASSI SOPRA IL MENU */
+/* EFFETTO AL PASSAGGIO DEL MOUSE */
 nav a:hover {
-    background: #f28c28;
+    background: orange;
 }
 
 /* TABELLA */
@@ -59,7 +58,7 @@ th {
     color: white;
 }
 
-/* RIGHE ALTERNATE DELLA TABELLA */
+/* RIGHE ALTERNATE */
 tr:nth-child(even) {
     background: #eef3f8;
 }
